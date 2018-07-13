@@ -21,7 +21,7 @@ void setup() {
 }
 
 void loop() {
-  // Switch numbers are from 0 to 7, with 2 representing 'All' switches. 
+  // Switch numbers are from 0 to 7. 
   
   arlecSwitch.setArlecSwitchState(6, true);
   delay(5000);
