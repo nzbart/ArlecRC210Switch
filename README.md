@@ -32,9 +32,12 @@ void loop() {
 }
 ```
 
-# Problems
+# Problems with these switches
 
-There appears to be crossover between the switches, and they can sometimes switch on or off with the wrong address. This also happens with the provided remote control.
+* There appears to be crossover between the switches, and they can sometimes switch on or off with the wrong address. This also happens with the provided remote control.
+* Since the switches are reprogrammable, if there's a power cut or someone turns off one of the sockets, you may be sending a signal to another socket when the first socket is turned on. This would set both sockets to the same code, so you'll be inadvertently controlling two sockets.
+
+Due to problems with the way this protocol is implemented, I would not recommend using more than one switch within range of each transmitter.
 
 # The protocol
 
