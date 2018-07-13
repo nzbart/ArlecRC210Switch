@@ -22,6 +22,7 @@ void setup() {
 
 void loop() {
   // Switch numbers are from 0 to 7. 
+  // Only 3, 5, 6, and 7 appeared to work for me.
   
   arlecSwitch.setArlecSwitchState(6, true);
   delay(5000);
