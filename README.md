@@ -34,10 +34,10 @@ void loop() {
 
 # Problems with these switches
 
-* There appears to be crossover between the switches, and they can sometimes switch on or off with the wrong address. This also happens with the provided remote control.
-* Since the switches are reprogrammable, if there's a power cut or someone turns off one of the sockets, you may be sending a signal to another socket when the first socket is turned on. This would set both sockets to the same code, so you'll be inadvertently controlling two sockets.
-
-Due to problems with the way this protocol is implemented, I would not recommend using more than one switch within range of each transmitter.
+* There appears to be crossover between the switches, and they can sometimes switch on or off with the wrong address. This also happens with the provided remote control. The fix is to reset the switches by plugging them in and pressing the ☀ until the LED flashes quickly and then turns off. You can then reprogram it. 
+* Since the switches are reprogrammable, if there's a power cut or someone turns off one of the sockets, you may be sending a signal to another socket when the first socket is turned on. This would set both sockets to the same code, so you'll be inadvertently controlling two sockets. You should code for this possibility, including:
+    * Trying to avoid sending any signals for at least 40 seconds after power is restored from a power cut.
+    * Trying to detect whether the application you're controlling is having an effect, for example if controlling a heater, is the room heating up after a reasonable time?
 
 # The protocol
 
