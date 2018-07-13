@@ -30,6 +30,10 @@ void loop() {
 }
 ```
 
+# Problems
+
+There appears to be crossover between the switches, and they can sometimes switch on or off with the wrong address. This also happens with the provided remote control.
+
 # The protocol
 
 The chip in the remote doesn't have any markings at all.
