@@ -5,6 +5,29 @@ Sold at Bunnings in Australia and New Zealand as a three-pack (RC213) or one-pac
 * One pack at Bunnings [New Zealand](https://www.bunnings.co.nz/arlec-white-remote-controlled-power-outlet_p00327675) or [Australia](https://www.bunnings.com.au/arlec-remote-controlled-power-outlet_p4331763).
 * Arlec appears to be a Bunnings brand, but the brand [has a website](https://www.arlec.com.au/).
 
+# Sample code
+
+```c++
+#include <Arduino.h>
+#include <ArlecRC210Switch.h>
+
+namespace {
+    const auto rf433OutputPin = 10;
+    ArlecRC210Switch arlecSwitch;
+}
+
+void setup() {
+    arlecSwitch.begin(rf433OutputPin);
+}
+
+void loop() {
+  arlecSwitch.setArlecSwitchState(6, true);
+  delay(5000);
+  arlecSwitch.setArlecSwitchState(6, false);
+  delay(5000);
+}
+```
+
 # The protocol
 
 The chip in the remote doesn't have any markings at all.
