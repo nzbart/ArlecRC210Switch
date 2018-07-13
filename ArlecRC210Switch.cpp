@@ -32,8 +32,8 @@ void ArlecRC210Switch::setArlecSwitchState(const int switchId, const bool on, co
     };
 
     auto writeBinary = [](int value, char* writeTo) {
-        for(int i = 0; i != 3; ++i) {
-            *writeTo++ = value & 1 ? '1' : '0';
+        for(int i = 2; i >= 0; --i) {
+            writeTo[i] = value & 1 ? '1' : '0';
             value >>= 1;
         }
     };
