@@ -1,6 +1,3 @@
-# ArlecR210Switch
-Arduino code to control the R210 240V switches sold by Bunnings using a cheap 433 MHz transmitter.
-
 # Arlec RC210 AU/NZ 240V socket remote controlled power outlets
 
 Sold at Bunnings in Australia and New Zealand as a three-pack (RC213) or one-pack (RC210):
