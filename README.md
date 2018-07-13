@@ -4,6 +4,7 @@ Sold at Bunnings in Australia and New Zealand as a three-pack (RC213) or one-pac
 * Three pack at Bunnings [New Zealand](https://www.bunnings.co.nz/arlec-white-remote-controlled-power-outlets-3-pack_p00327678) or [Australia](https://www.bunnings.com.au/arlec-remote-controlled-power-outlets-3-pack_p4331764).
 * One pack at Bunnings [New Zealand](https://www.bunnings.co.nz/arlec-white-remote-controlled-power-outlet_p00327675) or [Australia](https://www.bunnings.com.au/arlec-remote-controlled-power-outlet_p4331763).
 * Arlec appears to be a Bunnings brand, but the brand [has a website](https://www.arlec.com.au/).
+* I haven't tried these, but they look suspiciously like a [similar product from Jaycar](https://www.jaycar.co.nz/remote-controlled-3-outlet-mains-controller/p/MS6147).
 
 # Sample code
 
