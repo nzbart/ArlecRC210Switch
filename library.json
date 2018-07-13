@@ -1,0 +1,21 @@
+{
+    "name": "ArlecRC210Switch",
+    "keywords": "arlec, rc-switch, switch, power, australia, new zealand",
+    "description": "Arduino library for Arlec RC210 AU/NZ 240V socket remote controlled power outlets",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/nzbart/ArlecRC210Switch.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Bart Joy",
+        "email": "bartjoy@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "version": "0.1.0",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
