@@ -6,6 +6,12 @@ Sold at Bunnings in Australia and New Zealand as a three-pack (RC213) or one-pac
 * Arlec appears to be a Bunnings brand, but the brand [has a website](https://www.arlec.com.au/).
 * I haven't tried these, but they look suspiciously like a [similar product from Jaycar](https://www.jaycar.co.nz/remote-controlled-3-outlet-mains-controller/p/MS6147).
 
+# Installation
+
+Use this repository directly, or install via the platformio package:
+
+* [ArlecRC210Switch](https://platformio.org/lib/show/5543/ArlecRC210Switch)
+
 # Sample code
 
 ```c++
